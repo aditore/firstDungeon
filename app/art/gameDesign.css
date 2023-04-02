@@ -1,5 +1,18 @@
+.webPage {
+    height: calc(100vw - 35vw);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .gameCanvas {
-    width: 500px;
-    height: 500px;
-    border: 1px black dashed;
+    
+    
+    background: #000;
+    border: calc((0.5vw + 0.5vh) / 2) solid salmon;
+    
+
+    width: calc(100vw - 50vw);
+    height: calc(100vh - 50vh);
 }

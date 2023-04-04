@@ -33,5 +33,9 @@ function handleToggleGuideChange() {
 }
 
 function fillCell(cellX, cellY) {
-    
+
 }
+
+canvas.addEventListener("mousedown", handleCanvasMousedown);
+clearButton.addEventListener("click", handleClearButtonClick);
+toggleGuide.addEventListener("change", handleToggleGuideChange);

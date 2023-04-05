@@ -72,7 +72,7 @@ function fillCell(cellX, cellY) {
     const startY = cellY * cellPixelLength;
 
     ctx.fillStyle = colorInput.value;
-    ctx.fillRect(startX, startY, cellPixelLength, cellPixelLength);
+    ctx.fillRect(startX, startY, (cellPixelLength + 2), (cellPixelLength + 2));
     colorHistory[`${cellX}_${cellY}`] = colorInput.value;
 }
 
